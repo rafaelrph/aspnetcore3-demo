@@ -1,27 +1,31 @@
 ﻿<Properties StartupConfiguration="{E1132196-40DC-438C-B197-FA72671D7E16}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Globomantics/Controllers/ConferenceController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Globomantics/Services/ProposalMemoryService.cs">
     <Files>
       <File FileName="Globomantics/Program.cs" Line="20" Column="44" />
-      <File FileName="Globomantics/Globomantics.csproj" Line="15" Column="1" />
-      <File FileName="Globomantics/Startup.cs" Line="40" Column="39" />
-      <File FileName="Globomantics/Services/IConferenceService.cs" Line="1" Column="1" />
-      <File FileName="Globomantics/Services/ConferenceMemoryService.cs" Line="4" Column="43" />
-      <File FileName="Globomantics/Services/ConferenceApiService.cs" Line="4" Column="59" />
+      <File FileName="Globomantics/Globomantics.csproj" />
+      <File FileName="Globomantics/Startup.cs" Line="28" Column="78" />
+      <File FileName="Globomantics/Services/IConferenceService.cs" Line="10" Column="45" />
+      <File FileName="Globomantics/Services/ConferenceMemoryService.cs" Line="55" Column="97" />
       <File FileName="Globomantics/Controllers/ConferenceController.cs" Line="15" Column="36" />
+      <File FileName="Shared/ConferenceModel.cs" Line="11" Column="29" />
+      <File FileName="Shared/StatisticsModel.cs" Line="1" Column="1" />
+      <File FileName="Globomantics/Services/IProposalService.cs" Line="1" Column="1" />
+      <File FileName="Globomantics/Services/ProposalMemoryService.cs" Line="18" Column="28" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Globomantics" expanded="True">
             <Node name="Globomantics" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="ConferenceController.cs" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="ProposalMemoryService.cs" selected="True" />
               </Node>
-              <Node name="Services" expanded="True" />
               <Node name="wwwroot" expanded="True">
                 <Node name="img" expanded="True" />
               </Node>
             </Node>
+            <Node name="Shared" expanded="True" />
           </Node>
         </State>
       </Pad>

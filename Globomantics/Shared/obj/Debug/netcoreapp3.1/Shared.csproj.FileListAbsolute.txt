@@ -1,0 +1,8 @@
+/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Shared/bin/Debug/netcoreapp3.1/Shared.deps.json
+/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Shared/bin/Debug/netcoreapp3.1/Shared.dll
+/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Shared/bin/Debug/netcoreapp3.1/Shared.pdb
+/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Shared/obj/Debug/netcoreapp3.1/Shared.csproj.CoreCompileInputs.cache
+/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Shared/obj/Debug/netcoreapp3.1/Shared.AssemblyInfoInputs.cache
+/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Shared/obj/Debug/netcoreapp3.1/Shared.AssemblyInfo.cs
+/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Shared/obj/Debug/netcoreapp3.1/Shared.dll
+/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Shared/obj/Debug/netcoreapp3.1/Shared.pdb

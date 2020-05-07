@@ -1,17 +1,74 @@
 {
   "format": 1,
   "restore": {
-    "/Users/rafaelbarros/Projects/vs/Globomantics/Globomantics/Globomantics.csproj": {}
+    "/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Globomantics/Globomantics.csproj": {}
   },
   "projects": {
-    "/Users/rafaelbarros/Projects/vs/Globomantics/Globomantics/Globomantics.csproj": {
+    "/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Globomantics/Globomantics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/rafaelbarros/Projects/vs/Globomantics/Globomantics/Globomantics.csproj",
+        "projectUniqueName": "/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Globomantics/Globomantics.csproj",
         "projectName": "Globomantics",
-        "projectPath": "/Users/rafaelbarros/Projects/vs/Globomantics/Globomantics/Globomantics.csproj",
+        "projectPath": "/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Globomantics/Globomantics.csproj",
         "packagesPath": "/Users/rafaelbarros/.nuget/packages/",
-        "outputPath": "/Users/rafaelbarros/Projects/vs/Globomantics/Globomantics/obj/",
+        "outputPath": "/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Globomantics/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rafaelbarros/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Shared/Shared.csproj": {
+                "projectPath": "/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Shared/Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Shared/Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Shared/Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Shared/Shared.csproj",
+        "packagesPath": "/Users/rafaelbarros/.nuget/packages/",
+        "outputPath": "/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/rafaelbarros/.config/NuGet/NuGet.Config"
@@ -46,9 +103,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
