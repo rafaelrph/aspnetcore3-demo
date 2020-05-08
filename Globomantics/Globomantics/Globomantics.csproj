@@ -10,10 +10,16 @@
     <Folder Include="Services\" />
     <Folder Include="Controllers\" />
     <Folder Include="wwwroot\img\" />
+    <Folder Include="Views\" />
+    <Folder Include="Views\Shared\" />
+    <Folder Include="Views\Conference\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Shared\Shared.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="libman.json" />
   </ItemGroup>
 </Project>

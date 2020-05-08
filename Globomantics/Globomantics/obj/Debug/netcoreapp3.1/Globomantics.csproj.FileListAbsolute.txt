@@ -55,13 +55,10 @@
 /Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Globomantics/obj/Debug/netcoreapp3.1/Globomantics.TagHelpers.input.cache
 /Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Globomantics/obj/Debug/netcoreapp3.1/Globomantics.TagHelpers.output.cache
 /Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Globomantics/obj/Debug/netcoreapp3.1/Globomantics.RazorCoreGenerate.cache
-/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Globomantics/obj/Debug/netcoreapp3.1/Razor/Pages/Error.cshtml.g.cs
-/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Globomantics/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs
-/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Globomantics/obj/Debug/netcoreapp3.1/Razor/Pages/Privacy.cshtml.g.cs
-/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Globomantics/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_Layout.cshtml.g.cs
-/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Globomantics/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs
-/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Globomantics/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
-/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Globomantics/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewStart.cshtml.g.cs
+/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Globomantics/obj/Debug/netcoreapp3.1/Razor/Views/Conference/Index.cshtml.g.cs
+/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Globomantics/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Globomantics/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
+/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Globomantics/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
 /Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Globomantics/obj/Debug/netcoreapp3.1/Globomantics.RazorTargetAssemblyInfo.cache
 /Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Globomantics/obj/Debug/netcoreapp3.1/Globomantics.RazorTargetAssemblyInfo.cs
 /Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Globomantics/obj/Debug/netcoreapp3.1/Globomantics.Views.pdb
@@ -71,3 +68,4 @@
 /Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Globomantics/obj/Debug/netcoreapp3.1/Globomantics.dll
 /Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Globomantics/obj/Debug/netcoreapp3.1/Globomantics.pdb
 /Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Globomantics/obj/Debug/netcoreapp3.1/Globomantics.genruntimeconfig.cache
+/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Globomantics/bin/Debug/netcoreapp3.1/bundleconfig.json

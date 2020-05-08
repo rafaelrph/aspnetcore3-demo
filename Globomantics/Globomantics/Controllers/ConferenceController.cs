@@ -17,9 +17,9 @@ namespace Globomantics.Controllers
 
         public async Task<IActionResult> Index()
         {
-            return Ok(await conferenceService.GetAll());
-            //ViewBag.Title = "Conferences";
-            //return View(await conferenceService.GetAll());
+            //return Ok(await conferenceService.GetAll());
+            ViewBag.Title = "Conferences";
+            return View(await conferenceService.GetAll());
         }
 
         public IActionResult Add()
