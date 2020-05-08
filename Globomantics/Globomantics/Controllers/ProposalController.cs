@@ -1,5 +1,4 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Globomantics.Services;
 using Microsoft.AspNetCore.Mvc;
 using Shared;
@@ -24,6 +23,12 @@ namespace Globomantics.Controllers
             ViewBag.Title = $"Proposals for Conference {conference.Name} {conference.Location}";
             ViewBag.ConferenceId = conferenceId;
             return View(await proposalService.GetAll(conferenceId));
+        }
+
+        public async Task<IActionResult> Approve(int proposalId)
+        {
+            ProposalModel proposal = await proposalService.Approve(proposalId);
+            return RedirectToAction("Index", new { conferenceId = proposal.ConferenceId });
         }
 
         public IActionResult Add(int conferenceId)
