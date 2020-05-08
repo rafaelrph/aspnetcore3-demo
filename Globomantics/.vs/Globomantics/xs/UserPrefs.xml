@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{E1132196-40DC-438C-B197-FA72671D7E16}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Globomantics/bundleconfig.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Globomantics/Views/Conference/Index.cshtml">
     <Files>
       <File FileName="Globomantics/Program.cs" Line="20" Column="44" />
-      <File FileName="Globomantics/Globomantics.csproj" />
+      <File FileName="Globomantics/Globomantics.csproj" Line="15" Column="1" />
       <File FileName="Globomantics/Startup.cs" Line="29" Column="74" />
       <File FileName="Globomantics/Services/IConferenceService.cs" Line="10" Column="45" />
       <File FileName="Globomantics/Services/ConferenceMemoryService.cs" Line="55" Column="97" />
@@ -12,7 +12,7 @@
       <File FileName="Globomantics/Services/IProposalService.cs" Line="1" Column="1" />
       <File FileName="Globomantics/Services/ProposalMemoryService.cs" Line="59" Column="33" />
       <File FileName="Globomantics/Controllers/ProposalController.cs" Line="40" Column="88" />
-      <File FileName="Globomantics/Views/Shared/_Layout.cshtml" Line="12" Column="66" />
+      <File FileName="Globomantics/Views/Shared/_Layout.cshtml" Line="32" Column="15" />
       <File FileName="Globomantics/Views/Shared/_ViewStart.cshtml" Line="2" Column="24" />
       <File FileName="Globomantics/Views/_ViewImports.cshtml" Line="1" Column="55" />
       <File FileName="Globomantics/wwwroot/css/site.css" Line="1" Column="1" />
@@ -26,10 +26,15 @@
             <Node name="Globomantics" expanded="True">
               <Node name="Dependencies" expanded="True" />
               <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Conference" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
               <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True" />
               </Node>
-              <Node name="bundleconfig.json" selected="True" />
             </Node>
             <Node name="Shared" expanded="True" />
           </Node>
