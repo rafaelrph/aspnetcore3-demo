@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{E1132196-40DC-438C-B197-FA72671D7E16}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Globomantics/Views/Proposal/Add.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Globomantics/Views/Shared/Components/Statistics/Default.cshtml">
     <Files>
       <File FileName="Globomantics/Views/Proposal/Index.cshtml" Line="17" Column="7" />
       <File FileName="Globomantics/Views/Conference/Index.cshtml" Line="23" Column="7" />
@@ -9,7 +9,9 @@
       <File FileName="Globomantics/Services/ConferenceMemoryService.cs" Line="1" Column="1" />
       <File FileName="Globomantics/Controllers/ProposalController.cs" Line="24" Column="49" />
       <File FileName="Globomantics/Views/Conference/Add.cshtml" Line="19" Column="29" />
-      <File FileName="Globomantics/Views/Proposal/Add.cshtml" Line="21" Column="59" />
+      <File FileName="Globomantics/Views/Proposal/Add.cshtml" Line="28" Column="19" />
+      <File FileName="Globomantics/ViewComponents/StatisticsViewComponent.cs" Line="19" Column="56" />
+      <File FileName="Globomantics/Views/Shared/Components/Statistics/Default.cshtml" Line="1" Column="15" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,15 +20,21 @@
             <Node name="Globomantics" expanded="True">
               <Node name="Controllers" expanded="True" />
               <Node name="Services" expanded="True" />
+              <Node name="ViewComponents" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Conference" expanded="True">
                   <Node name="DisplayTemplates" expanded="True" />
                 </Node>
                 <Node name="Proposal" expanded="True">
                   <Node name="DisplayTemplates" expanded="True" />
-                  <Node name="Add.cshtml" selected="True" />
                 </Node>
-                <Node name="Shared" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="Components" expanded="True">
+                    <Node name="Statistics" expanded="True">
+                      <Node name="Default.cshtml" selected="True" />
+                    </Node>
+                  </Node>
+                </Node>
               </Node>
               <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True" />

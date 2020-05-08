@@ -74,3 +74,4 @@
 /Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Globomantics/obj/Debug/netcoreapp3.1/Razor/Views/Proposal/Index.cshtml.g.cs
 /Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Globomantics/obj/Debug/netcoreapp3.1/Razor/Views/Conference/Add.cshtml.g.cs
 /Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Globomantics/obj/Debug/netcoreapp3.1/Razor/Views/Proposal/Add.cshtml.g.cs
+/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Globomantics/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/Statistics/Default.cshtml.g.cs

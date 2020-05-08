@@ -16,6 +16,9 @@
     <Folder Include="Views\Conference\DisplayTemplates\" />
     <Folder Include="Views\Proposal\" />
     <Folder Include="Views\Proposal\DisplayTemplates\" />
+    <Folder Include="ViewComponents\" />
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="Views\Shared\Components\Statistics\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Shared\Shared.csproj">
