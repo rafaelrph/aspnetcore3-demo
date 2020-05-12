@@ -1,5 +1,4 @@
-﻿using System;
-namespace Shared
+﻿namespace Shared.Models
 {
     public class StatisticsModel
     {

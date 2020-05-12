@@ -1,6 +1,5 @@
-﻿using System;
-using System.Threading.Tasks;
-using Globomantics.Services;
+﻿using System.Threading.Tasks;
+using Shared.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Globomantics.ViewComponents

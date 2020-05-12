@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Shared;
+using Shared.Models;
 
-namespace Globomantics.Services
+namespace Shared.Services
 {
     public interface IConferenceService
     {

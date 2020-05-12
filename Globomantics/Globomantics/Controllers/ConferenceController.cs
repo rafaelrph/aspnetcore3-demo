@@ -1,8 +1,7 @@
-﻿using System;
-using System.Threading.Tasks;
-using Globomantics.Services;
+﻿using System.Threading.Tasks;
+using Shared.Services;
 using Microsoft.AspNetCore.Mvc;
-using Shared;
+using Shared.Models;
 
 namespace Globomantics.Controllers
 {
