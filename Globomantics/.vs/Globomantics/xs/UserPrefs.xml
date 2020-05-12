@@ -1,30 +1,22 @@
 ﻿<Properties StartupConfiguration="{E1132196-40DC-438C-B197-FA72671D7E16}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="API/Properties/launchSettings.json">
+    <Files>
+      <File FileName="API/Program.cs" Line="1" Column="1" />
+      <File FileName="API/Startup.cs" Line="34" Column="14" />
+      <File FileName="API/Controllers/ConferenceController.cs" Line="14" Column="1" />
+      <File FileName="API/Properties/launchSettings.json" Line="15" Column="34" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Globomantics" expanded="True">
-            <Node name="Globomantics" expanded="True">
+            <Node name="API" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="ViewComponents" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Conference" expanded="True">
-                  <Node name="DisplayTemplates" expanded="True" />
-                </Node>
-                <Node name="Proposal" expanded="True">
-                  <Node name="DisplayTemplates" expanded="True">
-                    <Node name="ProposalModel.cshtml" selected="True" />
-                  </Node>
-                </Node>
-                <Node name="Shared" expanded="True">
-                  <Node name="Components" expanded="True">
-                    <Node name="Statistics" expanded="True" />
-                  </Node>
-                </Node>
+              <Node name="Properties" expanded="True">
+                <Node name="launchSettings.json" selected="True" />
               </Node>
             </Node>
             <Node name="Shared" expanded="True">
-              <Node name="Model" expanded="True" />
               <Node name="Services" expanded="True" />
             </Node>
           </Node>
