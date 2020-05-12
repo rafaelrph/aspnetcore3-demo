@@ -7,6 +7,7 @@ namespace Shared.Services
     public interface IProposalService
     {
         Task Add(ProposalModel proposal);
+        Task<ProposalModel> AddAPI(ProposalModel proposal);
         Task<ProposalModel> Approve(int id);
         Task<IEnumerable<ProposalModel>> GetAll(int conferenceId);
     }

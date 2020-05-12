@@ -8,22 +8,23 @@ namespace API.Controllers
 {
     [Route("v1/[controller]")]
     [ApiController]
-    public class ConferenceController : ControllerBase
+    public class ProposalController : ControllerBase
     {
 
-        private readonly IConferenceService service;
+        private readonly IProposalService service;
 
-        public ConferenceController(IConferenceService service)
+        public ProposalController(IProposalService service)
         {
             this.service = service;
         }
 
-        [HttpGet]
-        public ActionResult Index()
+
+        [HttpGet("{conferenceId}")]
+        public ActionResult GetById(int conferenceId)
         {
             try
             {
-                return Ok(service.GetAll());
+                return Ok(service.GetAll(conferenceId));
             }
             catch (Exception e)
             {
@@ -31,12 +32,12 @@ namespace API.Controllers
             }
         }
 
-        [HttpGet("{id}")]
-        public ActionResult GetById(int id)
+        [HttpPut("{id}")]
+        public ActionResult Approve(int id)
         {
             try
             {
-                return Ok(service.GetById(id));
+                return Ok(service.Approve(id));
             }
             catch (Exception e)
             {
@@ -45,17 +46,18 @@ namespace API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Add([FromBody] ConferenceModel conference)
+        public async Task<IActionResult> Add([FromBody] ProposalModel proposal)
         {
             try
             {
-                ConferenceModel conf = await service.AddAPI(conference);
-                return CreatedAtRoute("GetById", new { id = conf.Id }, conf);
-            } catch(Exception e)
+                ProposalModel pr = await service.AddAPI(proposal);
+                return CreatedAtRoute("GetById", new { id = pr.Id }, pr);
+            }
+            catch (Exception e)
             {
                 return BadRequest(e.Message);
             }
-            
-        } 
+
+        }
     }
 }

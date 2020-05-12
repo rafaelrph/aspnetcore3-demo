@@ -34,6 +34,13 @@ namespace Shared.Services
             return Task.CompletedTask;
         }
 
+        public Task<ConferenceModel> AddAPI(ConferenceModel conference)
+        {
+            conference.Id = conferences.Max(c => c.Id) + 1;
+            conferences.Add(conference);
+            return Task.Run(() => conference);
+        }
+
         public Task<IEnumerable<ConferenceModel>> GetAll()
         {
             return Task.Run(() => conferences.AsEnumerable());
