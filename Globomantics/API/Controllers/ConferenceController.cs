@@ -31,7 +31,20 @@ namespace API.Controllers
             }
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("statistics")]
+        public ActionResult GetStatistics()
+        {
+            try
+            {
+                return Ok(service.GetStatistics());
+            }
+            catch (Exception e)
+            {
+                return NotFound(e.Message);
+            }
+        }
+
+        [HttpGet("{id}", Name = "GetById")]
         public ActionResult GetById(int id)
         {
             try
@@ -49,8 +62,8 @@ namespace API.Controllers
         {
             try
             {
-                ConferenceModel conf = await service.AddAPI(conference);
-                return CreatedAtRoute("GetById", new { id = conf.Id }, conf);
+                await service.Add(conference);
+                return CreatedAtRoute("GetById", new { id = conference.Id }, conference );
             } catch(Exception e)
             {
                 return BadRequest(e.Message);

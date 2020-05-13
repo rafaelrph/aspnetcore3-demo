@@ -20,8 +20,8 @@ namespace Globomantics
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddSingleton<IConferenceService, ConferenceMemoryService>();
-            services.AddSingleton<IProposalService, ProposalMemoryService>();
+            services.AddHttpClient<IConferenceService, ConferenceAPIService>();
+            services.AddHttpClient<IProposalService, ProposalAPIService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

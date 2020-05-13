@@ -10,6 +10,5 @@ namespace Shared.Services
         Task<ConferenceModel> GetById(int id);
         Task<StatisticsModel> GetStatistics();
         Task Add(ConferenceModel conference);
-        Task<ConferenceModel> AddAPI(ConferenceModel conference);
     }
 }

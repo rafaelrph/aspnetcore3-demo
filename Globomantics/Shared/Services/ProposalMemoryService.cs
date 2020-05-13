@@ -44,13 +44,6 @@ namespace Shared.Services
             return Task.CompletedTask;
         }
 
-        public Task<ProposalModel> AddAPI(ProposalModel proposal)
-        {
-            proposal.Id = proposals.Max(p => p.Id) + 1;
-            proposals.Add(proposal);
-            return Task.Run(() => proposal);
-        }
-
         public Task<IEnumerable<ProposalModel>> GetAll(int conferenceId)
         {
             return Task.Run(() => proposals.Where(p => p.ConferenceId == conferenceId).AsEnumerable());

@@ -19,7 +19,7 @@ namespace API.Controllers
         }
 
 
-        [HttpGet("{conferenceId}")]
+        [HttpGet("{conferenceId}", Name = "GetById")]
         public ActionResult GetById(int conferenceId)
         {
             try
@@ -50,8 +50,8 @@ namespace API.Controllers
         {
             try
             {
-                ProposalModel pr = await service.AddAPI(proposal);
-                return CreatedAtRoute("GetById", new { id = pr.Id }, pr);
+                await service.Add(proposal);
+                return CreatedAtRoute("GetById", new { id = proposal.Id }, proposal);
             }
             catch (Exception e)
             {

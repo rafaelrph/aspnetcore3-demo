@@ -39,7 +39,7 @@
       "outputPath": "/Users/rafaelbarros/Projects/vs/aspnetcore3-demo/Globomantics/Globomantics/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/rafaelbarros/.nuget/NuGet/NuGet.Config"
+        "/Users/rafaelbarros/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
